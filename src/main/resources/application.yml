@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: coffeeandit-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:jeansemolini/config-server-repo.git
